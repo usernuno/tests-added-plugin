@@ -15,7 +15,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </engines>
 
     <platform name="android">
-        <framework src="build.gradle" custom="true" type="gradleReference" />
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <meta-data android:name="LOCALYTICS_APP_KEY" android:value="1234567890abcdef" />
+        </config-file>
     </platform>
 
 </plugin>
