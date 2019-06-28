@@ -1,0 +1,23 @@
+{
+  "name": "tests-added-plugin",
+  "version": "1.0.0",
+  "description": "A plugin that contains code to be used in some tests.",
+  "cordova": {
+    "id": "tests-added-plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usernuno/tests-added-plugin.git"
+  },
+  "author": "Nuno Azevedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usernuno/tests-added-plugin/issues"
+  },
+  "homepage": "https://github.com/usernuno/tests-added-plugin#readme",
+  "keywords": []
+}

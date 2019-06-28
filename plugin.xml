@@ -1,0 +1,21 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="tests-added-plugin"
+      version="1.0.0">
+
+    <name>tests-added-plugin</name>
+    <description>A plugin that contains code to be used in some tests.</description>
+    <license>MIT</license>
+    <keywords>cordova</keywords>
+    <repo>https://github.com/tests-added-plugin</repo>
+    <issue>https://github.com/tests-added-plugin/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.5.0"/>
+    </engines>
+
+    <platform name="android">
+        <framework src="build.gradle" custom="true" type="gradleReference" />
+    </platform>
+
+</plugin>
